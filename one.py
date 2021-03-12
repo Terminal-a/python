@@ -24,3 +24,4 @@ for url in urls:
     with open(dir+'/'+name, 'wb')as f:
         f.write(r.content)
 	f.close()
+print("successful finish")
